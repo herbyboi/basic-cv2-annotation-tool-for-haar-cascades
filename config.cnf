@@ -1,0 +1,6 @@
+|dir // G:\tool\somedir\someotherdir
+|formats // bmp // jpg // png // jpeg
+|Lborder // 100
+|outdir // saves
+|prefix // savefile
+|old_data // saves\\savefile.txt
