@@ -1,0 +1,12 @@
+Controls:
+q / e => navigation
+Lbutton click in the object => clear it
+w => create object
+s => save (buggy so far, will create multiple files)
+
+Color Coding:
+Green => object passes minium set in config
+Red => it does not
+
+Config syntax:
+start line with |, then pu the parameter name. All parameters are in example config file.
