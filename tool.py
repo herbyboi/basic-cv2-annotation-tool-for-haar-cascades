@@ -78,7 +78,8 @@ class Image():
         roi = cv2.selectROI('tool_1',self.grabImg(),True)
         cv2.setMouseCallback('tool_1',self.onmouse)
         x,y,w,h = roi
-        self.objDict[self.workonid].append([x,y,w,h])
+        if h*w != 0:
+            self.objDict[self.workonid].append([x,y,w,h])
 
     def onmouse(self, k, x, y, s, p):
         if k == cv2.EVENT_LBUTTONDBLCLK:
